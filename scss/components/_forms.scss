@@ -1,0 +1,13 @@
+.form {
+
+display: flex;
+flex-direction: column;
+padding: 50px;
+
+}
+
+.form__input {
+border: none;
+border-bottom: 6px solid $cblockquote;
+
+}

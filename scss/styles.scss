@@ -1,0 +1,24 @@
+// **************************************
+// index.scss
+// Main Sass file used to import partials
+// **************************************
+
+// NOTE: import utilities and base partials here:
+@import "./base/base";
+@import "./base/index.scss";
+@import "./base/normalize.scss";
+
+@import "./utilities/extends";
+@import "./utilities/functions";
+@import "./utilities/index";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+// import components partials
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/grid";
+@import "./components/images";
+@import "./components/index";
+@import "./components/navigation";
+@import "./components/typography";

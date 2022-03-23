@@ -1,0 +1,32 @@
+.grid__col--12 {
+display:flex;
+justify-content: space-around;
+border-width: 5px;
+}
+li a{
+color: black;
+padding: 0 0;
+
+}
+
+.btn--error{
+  @include btndec;
+}
+.btn--default{
+@include btndec;
+background-color: $blcolor;
+margin-top: 5px;
+}
+
+.btn--success{
+@include btndec;
+
+}
+.btn--warning{
+@include btndec;
+
+}
+.btn--info{
+@include btndec;
+
+}

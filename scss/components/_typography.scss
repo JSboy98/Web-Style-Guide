@@ -1,0 +1,36 @@
+.headline--primary{
+color: $cblockquote;
+
+}
+
+.blockquote{
+color: $colortext;
+border-left: 10px solid $cblockquote;
+font-size: 20px;
+margin: 2em 15px;
+padding: 2em 15px;
+&::before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+}
+
+div p{
+color: $colortext;
+
+}
+
+.link{
+color: $blcolor;
+
+
+}
+
+.headline--secondary {
+color: $colortext;
+
+}
